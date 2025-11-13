@@ -1,0 +1,5 @@
+#!/usr/bin/env bash	
+# 
+for line in $(pgrep bash); do
+	echo "$line bash"
+done
